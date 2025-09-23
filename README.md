@@ -1,2 +1,4 @@
 # Grind-to-Hire
-Tracking consistency, progress, and growth until I land my first job.
+
+This repo documents my ***Placement preparation Journey***
+GOAL: Stay consistent
