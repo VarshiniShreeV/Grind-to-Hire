@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Leetcode_169 {
 
-    public static void main(String[] args){
+    public void main(String[] args){
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();//Number of inputs in the array
 
@@ -18,7 +18,7 @@ public class Leetcode_169 {
     }
 
     //Majority Element
-    public static int majorityElement(int[] nums) {
+    public int majorityElement(int[] nums) {
 
         //Boyer Moore Voting Algorithm
         int count = 0;

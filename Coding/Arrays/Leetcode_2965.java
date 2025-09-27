@@ -22,9 +22,9 @@ public class Leetcode_2965 {
         int l = grid.length;
         int[] freq = new int[l*l+1];
 
-        for(int i=0;i<grid.length;i++){
-            for(int j=0;j<grid[i].length;j++){
-                freq[grid[i][j]]++;
+        for (int[] grid1 : grid) {
+            for (int j = 0; j < grid1.length; j++) {
+                freq[grid1[j]]++;
             }
         }
 
