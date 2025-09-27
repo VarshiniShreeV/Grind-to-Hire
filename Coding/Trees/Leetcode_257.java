@@ -1,19 +1,24 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
+import java.util.ArrayList;
+import java.util.List;
+
+
+
 public class Leetcode_257 {
+    
+    // Definition for a binary tree node.
+    public static class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    // TreeNode() {}
+    // TreeNode(int val) { this.val = val; }
+    // TreeNode(int val, TreeNode left, TreeNode right) {
+    //     this.val = val;
+    //     this.left = left;
+    //     this.right = right;
+    //   }
+  }
+
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> s = new ArrayList<>();
         if (root==null) return s;
