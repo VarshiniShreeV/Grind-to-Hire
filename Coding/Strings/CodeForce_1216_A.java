@@ -4,9 +4,8 @@ public class CodeForce_1216_A{
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        String s = in.next();
+        char[] words = in.next().toCharArray();
         int count = 0;
-        char[] words = s.toCharArray();
         
         for(int i=0;i<n-1;i+=2){
             if(words[i]==words[i+1]){
@@ -17,8 +16,6 @@ public class CodeForce_1216_A{
 
         }
         System.out.println(count);
-        // String res = "";
-        // for(char c:words) res+= c;
         System.out.print(new String(words));
 
         in.close();
