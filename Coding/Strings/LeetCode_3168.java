@@ -1,4 +1,4 @@
-public class Leetcode_3168 {
+public class LeetCode_3168 {
     public int minimumChairs(String s) {
         int max = 0;
         int count = 0;
